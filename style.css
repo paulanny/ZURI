@@ -138,6 +138,7 @@ a {
     align-items: center;
     margin: auto;
     line-height: 30px;
+    list-style-type: square;
     
 }
 
@@ -192,7 +193,7 @@ a {
 
 .active  {
     border-radius: 6px;
-    color: black !important;
+    color: white !important;
     font-weight: 700;
     text-decoration: underline;
 }
@@ -206,7 +207,30 @@ li > a:hover {
     text-decoration: none;
 }
 
+form {
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+   /* margin: auto;*/
+}
 
-.hobul ul   {
-    list-style-type: circle;
+input, textarea   {
+    padding: 10px;
+    font-family:'Montserrat', sans-serif; 
+    font-weight: 300;
+    font-size: 7px;
+    font-style: italic;
+    width: 40%;
+    margin: 20px;
+}
+
+
+.formfill       {
+    display: block;
+}
+
+label       {
+    font-family:'Montserrat', sans-serif; 
+    font-weight: 500;
+    font-size: 14px;
 }
