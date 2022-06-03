@@ -51,23 +51,26 @@
         <main>
             <div class="contactform">
             <form>
-            <h2 class="name">Send a Message</h2>
+            <h2 class="send">Send a Message</h2>
         <div class="formfill">
             <label for="fullname">Name</label>
-            <input type="text" name="fullname" placeholder="input your full name" id="fullname">
+            <input type="text" name="fullname" placeholder="input your full name" id="fullname" required
+            minlength="6" maxlength="10">
             <small id="emailHelp" class="undertext">Not more than ten characters.</small>
         </div>
 
         <div  class="formfill">
             <label for="email">Email</label>
-            <input type="email" name="Email" placeholder="input your email" id="email">
+            <input type="email" name="Email" placeholder="input your email" id="email" required 
+            pattern="*@*">
             <small id="emailHelp" class="undertext">Enter a valid email address.</small>
         </div>
 
     
-            <textarea name="Message" rows="10" cols="30"> Send Paul a Message! </textarea>
+            <textarea name="Message" rows="10" cols="50"> Send Paul a Message! </textarea>
          <div>
-            <button type="button">Submit</button>
+            <button class="contactbtn" type="submit"">
+                <a href="index.html"> Submit </a></button>
         </div>
         </form>
     </div>
