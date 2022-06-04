@@ -212,22 +212,33 @@ height: 100%;
 
 }
 
-/*.formfill       {
-    margin: auto;
-}*/
+.contactform        {
+    background-color: rgba(216, 231, 253, 0.5);
+    width: 50%;
+    justify-content: center;
+    margin: 10% auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.formfill       {
+    margin-top: 0px;
+}
 
 
 
 
 label {
     display: block;
-    width: 50%;
+    width: 60%;
     margin: 3% auto 0% auto;
     font-size: 15px;
     font-family:'Montserrat', sans-serif; 
     font-weight: 500;
     font-style: semi-bold;
     padding-bottom: 10px;
+    /*text-align: center;*/
     
     padding-right: 50px;
   }
@@ -241,7 +252,7 @@ label {
     justify-content: center;
     text-align: center;
     align-items: center;
-    margin-top: 15px;
+    margin-top: 8px;
 }
 
 
@@ -254,8 +265,8 @@ label {
     font-weight: 300;
     margin: 0 auto;
     text-align: center;
-    padding-right: 65em;
-    width: 50%;
+    padding-right: 30em;
+    width: 80%;
   }
   
   input {
@@ -267,42 +278,37 @@ label {
     font-weight: 300;
     font-size: 7px;
     font-style: italic;
-    width: 50%;
+    width: 60%;
    margin:0 auto;
    display: block;
    place-content: center;
    border-style: hidden;
+   outline: none;
 
-  }
-
-  input:focus   {
-      border-color: #337AB7;
-      border-style: hidden;
   }
 
 
   textarea      {
+      display: block;
     padding: 15px;
     font-family:'Montserrat', sans-serif; 
     font-weight: 300;
     font-size: 7px;
     font-style: italic;
-    width: 50%;
+    width: 60%;
    margin: 30px auto;
    border-radius: 5px;
     border: 1px rgb(216, 215, 215) solid;
-    height: 250px;
+   /* height: 200px;*/
+    justify-content: center;
+    align-items: center;
 
   }
 
 
-  input:focus-visible {
-    outline-offset: 1px;
-}
-
   .contactbtn   {
-     width: 50%;
-      padding: 20px;
+     width: 60%;
+      padding: 10px;
       display: grid;
     place-content: center;
     color: white;

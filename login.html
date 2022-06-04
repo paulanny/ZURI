@@ -31,15 +31,15 @@
                             </a>
                         </li>
                         <li>
-                            <a class="active" href="contact.html">Contact page</a>
+                            <a href="contact.html">Contact page</a>
                         </li>
 
                         <li>
-                            <a href="registration.html">Registration page</a>
+                            <a href="registrationpage.html">Registration page</a>
                         </li>
 
                         <li>
-                            <a href="login.html">Login page</a>
+                            <a class="active" href="login.html">Login page</a>
                         </li>
 
                         
@@ -49,33 +49,30 @@
 
         </header>
         <main>
-            
+            <div class="contactform">
             <form>
-                <div class="contactform">
-            <h2 class="send">Send a Message</h2>
+            <!--<h2 class="send">Login to your Account</h2>-->
         <div class="formfill">
-            <label for="fullname">Name</label>
-            <input type="text" name="fullname" placeholder="input your full name" id="fullname" required
-            minlength="6" maxlength="10">
-            <small id="emailHelp" class="undertext">Not more than ten characters.</small>
+            <label for="Email">Email</label>
+            <input type="text" name="Email" placeholder="Input your Email" id="Email" required
+            pattern="*@*">
+           <!-- <small id="emailHelp" class="undertext">Not more than ten characters.</small>-->
         </div>
 
         <div  class="formfill">
-            <label for="email">Email</label>
-            <input type="email" name="Email" placeholder="input your email" id="email" required 
-            pattern="*@*">
-            <small id="emailHelp" class="undertext">Enter a valid email address.</small>
+            <label for="Password">Password</label>
+            <input type="password" name="Password" placeholder="input your password" id="Password" required >
+           <!-- <small id="emailHelp" class="undertext">Enter a valid email address.</small>-->
         </div>
 
     
-            <textarea name="Message" rows="10" cols="50"> Send Paul a Message! </textarea>
+           <!-- <textarea name="Message" rows="10" cols="50"> Send Paul a Message! </textarea>-->
          <div>
             <button class="contactbtn" type="submit"">
-                <a href="index.html"> Submit </a></button>
+                <a href="index.html"> Sign in </a></button>
         </div>
-    </div>
         </form>
-    
+    </div>
         </main>
         </body>
         </html>
