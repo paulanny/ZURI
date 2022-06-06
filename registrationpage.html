@@ -51,23 +51,70 @@
         <main>
             <div class="contactform">
             <form>
-            <h2 class="send">Send a Message</h2>
+          <!--  <h2 class="send">Send a Message</h2>-->
+
         <div class="formfill">
-            <label for="fullname">Name</label>
-            <input type="text" name="fullname" placeholder="input your full name" id="fullname" required
+            <label for="fullname">FirstName</label>
+            <input  type="text" name="fullname" placeholder="input your first name" id="fullname" required
             minlength="6" maxlength="10">
-            <small id="emailHelp" class="undertext">Not more than ten characters.</small>
         </div>
 
-        <div  class="formfill">
-            <label for="email">Email</label>
-            <input type="email" name="Email" placeholder="input your email" id="email" required 
-            pattern="*@*">
-            <small id="emailHelp" class="undertext">Enter a valid email address.</small>
+         <div class="formfill">
+            <label for="fullname">LastName</label>
+            <input type="text" name="lastname" placeholder="input your last name" id="fullname" required
+            minlength="6" maxlength="10">
         </div>
-
     
-            <textarea name="Message" rows="10" cols="50"> Send Paul a Message! </textarea>
+
+
+    <div class="register"> 
+        <div class="phonereg"> 
+            <label for="phone" class="regformlabel1">Number</label>
+            <input  class="regform1" type="number" name="phone"  id="phone" required>
+        </div>
+
+        <div class="phonereg"> 
+            <label for class="regformlabel2"="Gender">Gender</label>
+            <select class="regform2" name="Gender">
+                <option value="Female">Female</option>
+                <option value="Male">Male</option>
+                <option value="Other">Other</option>
+              </select>
+     </div>
+    </div>
+
+    <div class="register"> 
+            <div class="phonereg"> 
+        <label class="regformlabel3" for="fullname">Country</label>
+        <input class="regform3" type="text" name="fullname"  id="fullname" required
+        minlength="6" maxlength="10">
+            </div>
+    
+            <div class="phonereg"> 
+        <label class="regformlabel4" for="fullname">State/Province</label>
+        <input class="regform4" type="text" name="lastname" id="fullname" required
+        minlength="6" maxlength="10">
+        </div>
+</div>
+
+<div  class="formfill">
+    <label for="email">Email</label>
+    <input type="email" name="Email" placeholder="input your email" id="email" required 
+    pattern="*@*">
+    <small id="emailHelp" class="undertext">Enter a valid email address.</small>
+</div>
+
+
+
+        <label for="Password">Password</label>
+        <input type="password" name="Password" placeholder="input your password" id="Password" required >
+       <!-- <small id="emailHelp" class="undertext">Enter a valid email address.</small>-->
+
+
+        <label for="Password">Confirm Password</label>
+        <input type="password" name="Password" placeholder="confirm your password" id="Password" required >
+       <!-- <small id="emailHelp" class="undertext">Enter a valid email address.</small>-->
+
          <div>
             <button class="contactbtn" type="submit"">
                 <a href="index.html"> Submit </a></button>
