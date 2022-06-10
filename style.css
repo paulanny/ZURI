@@ -20,6 +20,7 @@ body{
 .nav 
    {
      background-color: rgb(35, 130, 255);
+     width: 100%;
 }
 
 .logo   {
@@ -75,6 +76,7 @@ a {
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
+    cursor: pointer;
 }
 
 
@@ -185,7 +187,6 @@ a {
     font-weight: 400;
     font-size: 25px;
     border-radius: 10px;
-
 
 }
 
@@ -347,7 +348,7 @@ label {
       box-shadow:0.1px 0.1px 0.7px #337AB7;
   }
 
-  select:focus   {
+  select, textarea:focus   {
     border: 0.2px solid #337AB7;
     
     box-shadow:0.1px 0.1px 0.7px #337AB7;
@@ -480,4 +481,937 @@ label {
 
   
 
-  
+
+
+
+  @media (max-width:400px)      {
+
+    li {
+        display: inline-block;
+        width: 50px;
+        text-align: center;
+        justify-content: center;
+        padding-right: 15px;
+        font-weight: 300;
+        margin-top: 0px;
+        align-items: center;
+    }
+
+    a {
+       /* display: none;*/
+        text-decoration: none;
+       padding: 7px;
+       /* display: block;*/
+        color:white;
+       /* margin-top: 5px;*/
+        align-items: center;
+        justify-content: center;
+       
+    }
+
+    .introduction {
+   
+        display: block;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+      }
+      
+    
+    
+    .image {
+        width: 80%;
+        height: 80%;
+        border-radius: 50%;
+        margin: 30px auto;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        
+  }
+
+  .name, .send  {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+   width: 100%;
+    font-size: 2em;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.introp   {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    width: 100%;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    font-size: 10px;
+    padding: 20px;
+}
+
+
+.namenpara  {
+    display: block;
+    width: 100%;
+}
+
+.otherinfo  {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px auto;
+    justify-content: space-evenly;
+}
+
+.hobbies    {
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(180, 203, 223, 0.096);
+    width: 80%;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0.4px 0.4px ;
+    text-align: center;
+    margin:30px auto;
+    
+}
+
+.contact        {
+    display: grid;
+    place-content: center;
+    color: white;
+    background-color: rgb(35, 130, 255);
+    text-align: center;
+    margin: auto;
+   /* margin-top: 80px;*/
+    margin-bottom: 40px;
+    padding: 15px;
+    border: 0px ;
+    width: 80%;
+    font-family:'Montserrat', sans-serif; 
+    font-weight: 400;
+    font-size: 25px;
+    border-radius: 10px;
+
+}
+
+form    {
+    display: block;
+}
+
+.contactform        {
+    padding: 3px;
+    padding-right: 0px;
+    background-color: rgba(216, 231, 253, 0.5);
+    width: 70%;
+    justify-content: center;
+    margin: 20% auto;
+    justify-content: center;
+    align-items: center;
+}
+
+
+input   {
+    border-radius: 5px;
+    border: 1px rgb(255, 255, 255);
+    /* box-sizing: border-box; */
+    padding: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 7px;
+    font-style: italic;
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    /* place-content: center; */
+    border-style: hidden;
+    outline: none;
+}
+
+.undertext  {
+    display: block;
+    padding-top: 5px;
+    word-spacing: 1px;
+    font-size: 7px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin: 0 auto 30px auto;
+    /* text-align: center; */
+    padding-right: 6em;
+    width: 80%;
+
+}
+
+label {
+    display: block;
+    width: 80%;
+    margin: 8% auto 0% auto;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-style: semi-bold;
+    padding-bottom: 10px;
+    /* text-align: center; */
+    padding-right: 50px;
+}
+
+textarea {
+    display: block;
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 7px;
+    font-style: italic;
+    width: 80%;
+    margin: 30px auto;
+    border-radius: 5px;
+    border: 1px rgb(216, 215, 215) solid;
+    /* height: 200px; */
+    justify-content: center;
+    align-items: center;
+    outline: none;
+}
+
+.contactbtn {
+    width: 80%;
+    padding: 8px;
+    display: grid;
+    place-content: center;
+    color: white;
+    background-color: rgb(35, 130, 255);
+    text-align: center;
+    margin-bottom: 20px;
+    border: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    border-radius: 10px;
+    margin: 40px auto;
+}
+
+.regform2 {
+    border-radius: 5px;
+    border: 1px rgb(255, 255, 255);
+    box-sizing: border-box;
+    padding: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 7px;
+    font-style: italic;
+    width: 80%;
+    margin: 0 auto 0 auto;
+    display: block;
+    border-style: hidden;
+    outline: none;
+}
+
+.regformlabel2 {
+    display: block;
+    width: 80%;
+    margin: 8% auto 0% auto;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-style: semi-bold;
+    padding-bottom: 10px;
+    text-align: left;
+    padding-right: 0px;
+}
+
+.regform1 {
+    border-radius: 5px;
+    border: 1px rgb(255, 255, 255);
+    box-sizing: border-box;
+    padding: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 7px;
+    font-style: italic;
+    width: 80%;
+    margin: 0 auto 0 auto;
+    display: block;
+    border-style: hidden;
+    outline: none;
+}
+
+.regformlabel1 {
+    display: block;
+    width: 80%;
+    margin: 8% auto 0% auto;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-style: semi-bold;
+    padding-bottom: 10px;
+    text-align: left;
+    padding-left: 0px;
+}
+
+.regform3 {
+    border-radius: 5px;
+    border: 1px rgb(255, 255, 255);
+    box-sizing: border-box;
+    padding: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 7px;
+    font-style: italic;
+    width: 80%;
+    margin: 0 auto 0 auto;
+    display: block;
+    border-style: hidden;
+    outline: none;
+}
+
+.regformlabel3 {
+    display: block;
+    width: 80%;
+    margin: 8% auto 0% auto;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-style: semi-bold;
+    padding-bottom: 10px;
+    text-align: left;
+    padding-left: 0px;
+}
+
+.regform4 {
+    border-radius: 5px;
+    border: 1px rgb(255, 255, 255);
+    box-sizing: border-box;
+    padding: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 7px;
+    font-style: italic;
+    width: 80%;
+    margin: 0 auto 0 auto;
+    display: block;
+    border-style: hidden;
+    outline: none;
+}
+
+.regformlabel4 {
+    display: block;
+    width: 80%;
+    margin: 8% auto 0% auto;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-style: semi-bold;
+    padding-bottom: 10px;
+    text-align: left;
+    padding-left: 25px;
+}
+
+.register   {
+    display: block;
+}
+
+}
+
+
+@media  (min-width: 400px) and (max-width:520px)      {
+
+    li {
+        display: inline-block;
+        width: 50px;
+        text-align: center;
+        justify-content: center;
+        padding-right: 15px;
+        font-weight: 300;
+        margin-top: 0px;
+        align-items: center;
+    }
+
+    a {
+       /* display: none;*/
+        text-decoration: none;
+       padding: 7px;
+       /* display: block;*/
+        color:white;
+       /* margin-top: 5px;*/
+        align-items: center;
+        justify-content: center;
+       
+    }
+
+    .introduction {
+   
+        display: block;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+      }
+      
+    
+    
+    .image {
+        width: 80%;
+        height: 80%;
+        border-radius: 50%;
+        margin: 30px auto;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        
+  }
+
+  .name  {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+   width: 100%;
+    font-size: 2em;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.introp   {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    width: 100%;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    font-size: 10px;
+    padding: 20px;
+}
+
+
+.namenpara  {
+    display: block;
+    width: 100%;
+}
+
+.otherinfo  {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px auto;
+    justify-content: space-evenly;
+}
+
+.hobbies    {
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(180, 203, 223, 0.096);
+    width: 80%;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0.4px 0.4px ;
+    text-align: center;
+    margin:30px auto;
+    
+}
+
+.contact        {
+    display: grid;
+    place-content: center;
+    color: white;
+    background-color: rgb(35, 130, 255);
+    text-align: center;
+    margin: auto;
+   /* margin-top: 80px;*/
+    margin-bottom: 40px;
+    padding: 15px;
+    border: 0px ;
+    width: 80%;
+    font-family:'Montserrat', sans-serif; 
+    font-weight: 400;
+    font-size: 25px;
+    border-radius: 10px;
+
+}
+
+.contact        {
+    display: grid;
+    place-content: center;
+    color: white;
+    background-color: rgb(35, 130, 255);
+    text-align: center;
+    margin: auto;
+   /* margin-top: 80px;*/
+    margin-bottom: 40px;
+    padding: 15px;
+    border: 0px ;
+    width: 80%;
+    font-family:'Montserrat', sans-serif; 
+    font-weight: 400;
+    font-size: 25px;
+    border-radius: 10px;
+
+}
+
+form    {
+    display: block;
+}
+
+.contactform        {
+    padding: 3px;
+    padding-right: 0px;
+    background-color: rgba(216, 231, 253, 0.5);
+    width: 70%;
+    justify-content: center;
+    margin: 20% auto;
+    justify-content: center;
+    align-items: center;
+}
+
+
+input   {
+    border-radius: 5px;
+    border: 1px rgb(255, 255, 255);
+    /* box-sizing: border-box; */
+    padding: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 7px;
+    font-style: italic;
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    /* place-content: center; */
+    border-style: hidden;
+    outline: none;
+}
+
+.undertext  {
+    display: block;
+    padding-top: 5px;
+    word-spacing: 1px;
+    font-size: 7px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin: 0 auto 30px auto;
+    /* text-align: center; */
+    padding-right: 6em;
+    width: 80%;
+
+}
+
+label {
+    display: block;
+    width: 80%;
+    margin: 8% auto 0% auto;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-style: semi-bold;
+    padding-bottom: 10px;
+    /* text-align: center; */
+    padding-right: 50px;
+}
+
+textarea {
+    display: block;
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 7px;
+    font-style: italic;
+    width: 80%;
+    margin: 30px auto;
+    border-radius: 5px;
+    border: 1px rgb(216, 215, 215) solid;
+    /* height: 200px; */
+    justify-content: center;
+    align-items: center;
+    outline: none;
+}
+
+.contactbtn {
+    width: 80%;
+    padding: 8px;
+    display: grid;
+    place-content: center;
+    color: white;
+    background-color: rgb(35, 130, 255);
+    text-align: center;
+    margin-bottom: 20px;
+    border: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    border-radius: 10px;
+    margin: 40px auto;
+}
+
+
+.regform2 {
+    border-radius: 5px;
+    border: 1px rgb(255, 255, 255);
+    box-sizing: border-box;
+    padding: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 7px;
+    font-style: italic;
+    width: 80%;
+    margin: 0 auto 0 auto;
+    display: block;
+    border-style: hidden;
+    outline: none;
+}
+
+.regformlabel2 {
+    display: block;
+    width: 80%;
+    margin: 8% auto 0% auto;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-style: semi-bold;
+    padding-bottom: 10px;
+    text-align: left;
+    padding-right: 0px;
+}
+
+.regform1 {
+    border-radius: 5px;
+    border: 1px rgb(255, 255, 255);
+    box-sizing: border-box;
+    padding: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 7px;
+    font-style: italic;
+    width: 80%;
+    margin: 0 auto 0 auto;
+    display: block;
+    border-style: hidden;
+    outline: none;
+}
+
+.regformlabel1 {
+    display: block;
+    width: 80%;
+    margin: 8% auto 0% auto;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-style: semi-bold;
+    padding-bottom: 10px;
+    text-align: left;
+    padding-left: 0px;
+}
+
+.regform3 {
+    border-radius: 5px;
+    border: 1px rgb(255, 255, 255);
+    box-sizing: border-box;
+    padding: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 7px;
+    font-style: italic;
+    width: 80%;
+    margin: 0 auto 0 auto;
+    display: block;
+    border-style: hidden;
+    outline: none;
+}
+
+.regformlabel3 {
+    display: block;
+    width: 80%;
+    margin: 8% auto 0% auto;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-style: semi-bold;
+    padding-bottom: 10px;
+    text-align: left;
+    padding-left: 0px;
+}
+
+.regform4 {
+    border-radius: 5px;
+    border: 1px rgb(255, 255, 255);
+    box-sizing: border-box;
+    padding: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 7px;
+    font-style: italic;
+    width: 80%;
+    margin: 0 auto 0 auto;
+    display: block;
+    border-style: hidden;
+    outline: none;
+}
+
+.regformlabel4 {
+    display: block;
+    width: 80%;
+    margin: 8% auto 0% auto;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-style: semi-bold;
+    padding-bottom: 10px;
+    text-align: left;
+    padding-left: 25px;
+}
+
+.register   {
+    display: block;
+}
+
+
+}
+
+
+
+@media (min-width:530px) and (max-width:800px)     {
+
+    li {
+        display: inline-block;
+        width: 90px;
+        text-align: center;
+        justify-content: center;
+        padding-right: 15px;
+        font-weight: 300;
+        margin-top: 0px;
+        align-items: center;
+        float: none;
+    }
+
+    a {
+       /* display: none;*/
+        text-decoration: none;
+       padding: 7px;
+       /* display: block;*/
+        color:white;
+       /* margin-top: 5px;*/
+        align-items: center;
+        justify-content: center;
+        float: none;
+       
+    }
+
+    .introduction {
+   
+        display: block;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+      }
+      
+    
+    
+    .image {
+        width: 60%;
+        height: 60%;
+        border-radius: 50%;
+        margin: 30px auto;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        
+  }
+
+  .name  {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+   width: 100%;
+    font-size: 2em;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.introp   {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    width: 100%;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    font-size: 13px;
+    padding: 20px;
+}
+
+
+.namenpara  {
+    display: block;
+    width: 100%;
+}
+
+.otherinfo  {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px auto;
+    justify-content: space-evenly;
+}
+
+.hobbies    {
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(180, 203, 223, 0.096);
+    width: 40%;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0.4px 0.4px ;
+    text-align: center;
+    margin:30px auto;
+    
+}
+
+.contact        {
+    display: grid;
+    place-content: center;
+    color: white;
+    background-color: rgb(35, 130, 255);
+    text-align: center;
+    margin: auto;
+   /* margin-top: 80px;*/
+    margin-bottom: 40px;
+    padding: 15px;
+    border: 0px ;
+    width: 80%;
+    font-family:'Montserrat', sans-serif; 
+    font-weight: 400;
+    font-size: 25px;
+    border-radius: 10px;
+
+}
+
+form    {
+    display: block;
+}
+
+.contactform        {
+    padding: 3px;
+    padding-right: 0px;
+    background-color: rgba(216, 231, 253, 0.5);
+    width: 70%;
+    justify-content: center;
+    margin: 20% auto;
+    justify-content: center;
+    align-items: center;
+}
+
+
+input   {
+    border-radius: 5px;
+    border: 1px rgb(255, 255, 255);
+    /* box-sizing: border-box; */
+    padding: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 7px;
+    font-style: italic;
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    /* place-content: center; */
+    border-style: hidden;
+    outline: none;
+}
+
+.undertext  {
+    display: block;
+    padding-top: 5px;
+    word-spacing: 1px;
+    font-size: 7px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin: 0 auto 30px auto;
+    text-align: left; 
+    padding-left: 0px;
+    width: 80%;
+
+}
+
+label {
+    display: block;
+    width: 80%;
+    margin: 8% auto 0% auto;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-style: semi-bold;
+    padding-bottom: 10px;
+    /* text-align: center; */
+    padding-right: 50px;
+}
+
+textarea {
+    display: block;
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 7px;
+    font-style: italic;
+    width: 80%;
+    margin: 30px auto;
+    border-radius: 5px;
+    border: 1px rgb(216, 215, 215) solid;
+    /* height: 200px; */
+    justify-content: center;
+    align-items: center;
+    outline: none;
+}
+
+.contactbtn {
+    width: 80%;
+    padding: 8px;
+    display: grid;
+    place-content: center;
+    color: white;
+    background-color: rgb(35, 130, 255);
+    text-align: center;
+    margin-bottom: 20px;
+    border: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    border-radius: 10px;
+    margin: 40px auto;
+}
+
+
+
+}
+
+
+@media  (min-width:800px) and (max-width:950px) {
+
+    .hobbies    {
+        width: 40%;
+        margin: 20px;
+    }
+
+    .otherinfo {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 30px;
+        justify-content: space-evenly;
+    }
+
+    .contact {
+        display: grid;
+        place-content: center;
+        color: white;
+        background-color: rgb(35, 130, 255);
+        text-align: center;
+        margin: auto;
+        margin-top: 80px;
+        margin-bottom: 20px;
+        padding: 15px;
+        border: 0px;
+        width: 40%;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 25px;
+        border-radius: 10px;
+    }
+}
