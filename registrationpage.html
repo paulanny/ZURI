@@ -11,43 +11,47 @@
         <link href="https://fonts.googleapis.com/css2?family=Harmattan:wght@400;700&family=Josefin+Sans:wght@100;200;300;400;700&family=Montserrat:ital,wght@0,100
             ;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Harmattan:wght@400;700&family=Josefin+Sans:wght@100;200;300;400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    
     </head>
 
     <body>
         <header>
 
-            <div class="nav">
-                <ul class="navlist">
-                    <div>
-                    <li class="logo">
+            <nav class="navigationbar">
+                    <h4 class="textpsyche">
+                        PAUL ANNY
+                    </h4>
 
-                        <h4 class="textpsyche">
-                            PAUL ANNY
-                        </h4>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About </a>
                     </li>
-                    <div class="lists">
-                        <li>
-                            <a href="index.html">About Me
-                            </a>
-                        </li>
-                        <li>
-                            <a href="contact.html">Contact page</a>
-                        </li>
 
-                        <li>
-                            <a class="active" href="registrationpage.html">Registration page</a>
-                        </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
 
-                        <li>
-                            <a href="index.html">Login page</a>
-                        </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="registrationpage.html">Registration page</a>
+                    </li>
 
-                        
-                    </div>
-                </ul>
-            </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login page</a>
+                    </li>
 
-        </header>
+                    
+                    
+             </ul>
+             <div class="hamburger">
+                 <span class="bars"></span>
+                 <span class="bars"></span>
+                 <span class="bars"></span>
+             </div>
+            </nav>
+
+    </header>
         <main>
             <div class="contactform">
             <form>
@@ -67,15 +71,15 @@
     
 
 
-    <div class="register"> 
+    <div class="register1"> 
         <div class="phonereg"> 
             <label for="phone" class="regformlabel1">Number</label>
-            <input  class="regform1" type="number" name="phone"  id="phone" required>
+            <input  class="regform5" type="number" name="phone"  id="phone" required>
         </div>
 
         <div class="phonereg"> 
             <label for class="regformlabel2"="Gender">Gender</label>
-            <select class="regform2" name="Gender">
+            <select class="regform5" name="Gender">
                 <option value="Female">Female</option>
                 <option value="Male">Male</option>
                 <option value="Other">Other</option>
@@ -83,16 +87,16 @@
      </div>
     </div>
 
-    <div class="register"> 
+    <div class="register1"> 
             <div class="phonereg"> 
         <label class="regformlabel3" for="fullname">Country</label>
-        <input class="regform3" type="text" name="fullname"  id="fullname" required
+        <input class="regform5" type="text" name="fullname"  id="fullname" required
         minlength="6" maxlength="10">
             </div>
     
             <div class="phonereg"> 
         <label class="regformlabel4" for="fullname">State/Province</label>
-        <input class="regform4" type="text" name="lastname" id="fullname" required
+        <input class="regform5" type="text" name="lastname" id="fullname" required
         minlength="6" maxlength="10">
         </div>
 </div>
@@ -122,5 +126,6 @@
         </form>
     </div>
         </main>
+        <script src="index.js"></script>
         </body>
         </html>
