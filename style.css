@@ -231,6 +231,7 @@ height: 100%;
     margin: 10% auto;
     justify-content: center;
     align-items: center;
+    padding: 25px;
     
 }
 
@@ -241,21 +242,18 @@ height: 100%;
 
 
 
-label {
-    display: block;
-    width: 60%;
-    margin: 3% auto 0% auto;
-    font-size: 15px;
-    font-family:'Montserrat', sans-serif; 
-    font-weight: 500;
-    font-style: semi-bold;
-    padding-bottom: 10px;
-    /*text-align: center;*/
-    
-    padding-right: 50px;
-  }
-
-
+    label {
+        display: block;
+        width: 60%;
+        margin: 6% 0 1% 0;
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-style: semi-bold;
+        padding-bottom: 10px;
+        text-align: left;
+        /* padding-right: 50px; */
+    }
   .send  {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -268,18 +266,18 @@ label {
 }
 
 
-  .undertext     {
-      display: block;
-      padding-top: 5px;
-      word-spacing: 3px;
-      font-size: 7px;
-    font-family:'Montserrat', sans-serif; 
+.undertext {
+    display: block;
+    padding-top: 5px;
+    word-spacing: 1px;
+    font-size: 7px;
+    font-family: Montserrat, sans-serif;
     font-weight: 300;
-    margin: 0 auto;
-    text-align: center;
-    padding-right: 30em;
-    width: 80%;
-  }
+    /* margin: 0px auto; */
+    text-align: left;
+    /* padding-right: 30em; */
+    width: 100%;
+}
   
   input, select, option {
     border-radius: 5px;
@@ -290,7 +288,7 @@ label {
     font-weight: 300;
     font-size: 15px;
     font-style: italic;
-    width: 60%;
+    width: 100%;
    margin:0 auto;
    display: block;
   /* place-content: center;*/
@@ -307,7 +305,7 @@ label {
     font-weight: 300;
     font-size: 7px;
     font-style: italic;
-    width: 60%;
+    width: 100%;
    margin: 30px auto;
    border-radius: 5px;
     border: 1px rgb(216, 215, 215) solid;
@@ -337,16 +335,6 @@ label {
   }
 
 
-  .register {
-      display: flex;
-      width: 80%;
-     margin: auto;
-      justify-content: center;
-      align-items: center;
-     
-  }
-
-
   .register1 {
     display: flex;
     align-items: center;
@@ -354,15 +342,16 @@ label {
    
 }
 
- .regform5  {
+ /*.regform5  {
 
     width: 48%;
-}
+    margin: auto;
+}*/
 
   .phonereg     {
       display: block;
-      /*width: 100%;
-      margin: auto;*/
+      width: 48%;
+      margin:  15px auto;
   }
 
   input:focus   {
@@ -378,128 +367,22 @@ label {
 }
 
 
-.regform1 {
-    border-radius: 5px;
-    border: 1px rgb(255, 255, 255);
-    box-sizing: border-box;
-    padding: 15px;
+.regformlabel2 {
+    display: block;
+    width: 48%;
+   /* margin: 3% auto 0% auto;*/
+    font-size: 15px;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    font-size: 7px;
-    font-style: italic;
-    width: 50%;
-    /* margin: 0 auto 0 40%; */
-    display: block;
-    border-style: hidden;
-    outline: none;
+    font-weight: 500;
+    font-style: semi-bold;
+    padding-bottom: 10px;
+    text-align: left;
+    /* padding-right: 250px; */
 }
-
-.regform2 {
-    border-radius: 5px;
-    border: 1px rgb(255, 255, 255);
-    box-sizing: border-box;
-    padding: 15px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    font-size: 7px;
-    font-style: italic;
-    /* width: 50%; */
-    /* margin: 0 auto 0 10%; */
-    display: block;
-    border-style: hidden;
-    outline: none;
-}
-
-  .regformlabel2     {
-    display: block;
-    /*width: 60%;*/
-    margin: 3% auto 0% auto;
-    font-size: 15px;
-    font-family:'Montserrat', sans-serif; 
-    font-weight: 500;
-    font-style: semi-bold;
-    padding-bottom: 10px;
-    text-align: center;
-    padding-right: 250px;
-  }
+  
   
 
-  .regformlabel1     {
-    display: block;
-    width: 60%;
-    margin: 3% auto 0% auto;
-    font-size: 15px;
-    font-family:'Montserrat', sans-serif; 
-    font-weight: 500;
-    font-style: semi-bold;
-    padding-bottom: 10px;
-    text-align: center;
-    padding-left: 50px;
-  }
   
-
-  .regform3      {
-    border-radius: 5px;
-    border: 1px rgb(255, 255, 255);
-    box-sizing: border-box;
-    padding: 15px;
-    font-family:'Montserrat', sans-serif; 
-    font-weight: 300;
-    font-size: 7px;
-    font-style: italic;
-    width: 55%;
-   margin: 0 auto 0 48%;
-   display: block;
-   border-style: hidden;
-   outline: none;
-
-  }
-
-  .regform4    {
-    border-radius: 5px;
-    border: 1px rgb(255, 255, 255);
-    box-sizing: border-box;
-    padding: 15px;
-    font-family:'Montserrat', sans-serif; 
-    font-weight: 300;
-    font-size: 7px;
-    font-style: italic;
-    width: 50%;
-   margin: 0 auto 0 14%;
-   display: block;
-   border-style: hidden;
-   outline: none;
-
-  }
-
-  .regformlabel3     {
-    display: block;
-    /*width: 60%;*/
-    margin: 3% auto 0% auto;
-    font-size: 15px;
-    font-family:'Montserrat', sans-serif; 
-    font-weight: 500;
-    font-style: semi-bold;
-    padding-bottom: 10px;
-    text-align: center;
-    padding-left: 70px;
-  }
-  
-
-  .regformlabel4     {
-    display: block;
-    width: 60%;
-    margin: 3% auto 0% auto;
-    font-size: 15px;
-    font-family:'Montserrat', sans-serif; 
-    font-weight: 500;
-    font-style: semi-bold;
-    padding-bottom: 10px;
-    text-align: center;
-    padding-right: 260px;
-  }
-  
-
   
 
 
