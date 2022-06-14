@@ -611,124 +611,37 @@ textarea {
     margin: 40px auto;
 }
 
-.regform2 {
-    border-radius: 5px;
-    border: 1px rgb(255, 255, 255);
-    box-sizing: border-box;
-    padding: 8px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    font-size: 7px;
-    font-style: italic;
-    width: 80%;
-    margin: 0 auto 0 auto;
+
+
+
+.register1   {
     display: block;
-    border-style: hidden;
-    outline: none;
+    align-items: center;
+    justify-content: center;
 }
 
 .regformlabel2 {
     display: block;
     width: 80%;
-    margin: 8% auto 0% auto;
-    font-size: 13px;
+   /* margin: 3% auto 0% auto;*/
+    font-size: 15px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-style: semi-bold;
     padding-bottom: 10px;
     text-align: left;
-    padding-right: 0px;
+    /* padding-right: 250px; */
 }
 
-.regform1 {
-    border-radius: 5px;
-    border: 1px rgb(255, 255, 255);
-    box-sizing: border-box;
+.phonereg {
+    display: block;
+    width: 100%;
+    margin: 15px auto;
+}
+
+select      {
+    width: 80%;
     padding: 8px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    font-size: 7px;
-    font-style: italic;
-    width: 80%;
-    margin: 0 auto 0 auto;
-    display: block;
-    border-style: hidden;
-    outline: none;
-}
-
-.regformlabel1 {
-    display: block;
-    width: 80%;
-    margin: 8% auto 0% auto;
-    font-size: 13px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    font-style: semi-bold;
-    padding-bottom: 10px;
-    text-align: left;
-    padding-left: 0px;
-}
-
-.regform3 {
-    border-radius: 5px;
-    border: 1px rgb(255, 255, 255);
-    box-sizing: border-box;
-    padding: 8px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    font-size: 7px;
-    font-style: italic;
-    width: 80%;
-    margin: 0 auto 0 auto;
-    display: block;
-    border-style: hidden;
-    outline: none;
-}
-
-.regformlabel3 {
-    display: block;
-    width: 80%;
-    margin: 8% auto 0% auto;
-    font-size: 13px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    font-style: semi-bold;
-    padding-bottom: 10px;
-    text-align: left;
-    padding-left: 0px;
-}
-
-.regform4 {
-    border-radius: 5px;
-    border: 1px rgb(255, 255, 255);
-    box-sizing: border-box;
-    padding: 8px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    font-size: 7px;
-    font-style: italic;
-    width: 80%;
-    margin: 0 auto 0 auto;
-    display: block;
-    border-style: hidden;
-    outline: none;
-}
-
-.regformlabel4 {
-    display: block;
-    width: 80%;
-    margin: 8% auto 0% auto;
-    font-size: 13px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    font-style: semi-bold;
-    padding-bottom: 10px;
-    text-align: left;
-    padding-left: 25px;
-}
-
-.register   {
-    display: block;
 }
 
 }
@@ -842,26 +755,6 @@ textarea {
     margin:30px auto;
     
 }
-
-.contact        {
-    display: grid;
-    place-content: center;
-    color: white;
-    background-color: rgb(35, 130, 255);
-    text-align: center;
-    margin: auto;
-   /* margin-top: 80px;*/
-    margin-bottom: 40px;
-    padding: 15px;
-    border: 0px ;
-    width: 80%;
-    font-family:'Montserrat', sans-serif; 
-    font-weight: 400;
-    font-size: 25px;
-    border-radius: 10px;
-
-}
-
 .contact        {
     display: grid;
     place-content: center;
@@ -1271,9 +1164,9 @@ input   {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     margin: 0 auto 30px auto;
-    text-align: center;
-    padding-right: 20em;
-    width: 100%;
+    text-align: left;
+    /* padding-right: 20em; */
+    width: 80%;
 }
 
 label {
@@ -1328,18 +1221,18 @@ textarea {
 }
 
 
-@media  (min-width:800px) and (max-width:950px) {
+@media  (min-width:820px) and (max-width:950px) {
 
     .hobbies    {
         width: 40%;
         margin: 20px;
     }
 
-    form {
-        display: grid;
+   /* form {
+       /* display: grid;
         height: 100%;
         place-content: center;
-    }
+    }*/
 
     .otherinfo {
         display: flex;
@@ -1367,18 +1260,17 @@ textarea {
     }
 
     .undertext {
-        display: block;
-        padding-top: 5px;
-        word-spacing: 3px;
-        font-size: 7px;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 300;
-        margin: 0 auto;
-        text-align: center;
-        padding-right: 10em;
-        width: 100%;
-    }
-
+    display: block;
+    padding-top: 5px;
+    word-spacing: 3px;
+    font-size: 7px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin: 0 auto;
+    text-align: left;
+    padding-right: 10em;
+    width: 100%;
+}
 
     .regform4 {
         border-radius: 5px;
@@ -1444,6 +1336,17 @@ textarea {
     align-items: center;
 }
 
+.contactform        {
+    background-color: rgba(216, 231, 253, 0.5);
+    width: 70%;
+    justify-content: center;
+    margin: 10% auto;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    
+}
+
 }
 
 
@@ -1479,10 +1382,9 @@ textarea {
         font-size: 7px;
         font-family: 'Montserrat', sans-serif;
         font-weight: 300;
-        margin: 0 auto;
-        text-align: center;
+        /* margin: 0 auto; */
+        text-align: left;
         padding-right: 20em;
         width: 80%;
     }
-    
 }
